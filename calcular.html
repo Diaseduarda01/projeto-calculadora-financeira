@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Insira a capacidade do reservatório:
+        <input id="input_capacidade"><br>
+    <p>Insira o percentual de perda de água:
+        <input id="input_perda_agua"><br>
+    <p>Insira o custos de manutenção anuais:
+        <input id="input_custo_manutencao"><br>
+    <p>Insira o custo atual da água (R$/m³):
+        <input id="input_valor_agua">
+    <p>Insira por quanto tempo deseja investir(Em anos):
+        <input id="input_investimento_anos" type="number">
+    </p><br>
+
+
+    <button onclick="calcularROI()">calcular</button>
+
+    <div id="div_exibir"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
